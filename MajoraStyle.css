@@ -1,0 +1,519 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*Fond du site*/
+body {
+    background:url(MajoFond2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+    width: auto;
+    height: auto;
+    cursor: url(CursorSword\ \(1\).png), auto; 
+}
+/*bannière du site*/
+.Majo {
+    background-image: url(MajoraHead.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin: 0;
+    float: none;
+    left: 26.5%;
+    width: 1100px; 
+    height: 300px; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: end;
+    border-radius: 0% 0% 5% 0%;
+}
+
+
+.Majo h3 {
+    font-size: 30px;
+    font-family: 'Arial Narrow Bold',fantasy;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(253, 253, 253, 0.856);
+    margin: 0; 
+    text-align: left; 
+    align-self: flex-start; 
+}
+
+
+.Majo h5 {
+    font-size: 30px;
+    font-family: 'Segoe UI',fantasy;
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(253, 253, 253, 0.856);
+    margin: 0; 
+    text-align: left; 
+    align-self: flex-start; 
+}
+.Majo p{
+    font-family: "Homemade Apple", cursive;
+    color: rgba(253, 253, 253, 0.856);
+}
+
+.images-container {
+    display: flex;
+    align-items: center;    
+}
+
+.vendeur-img {
+    width: 100px;
+    height: auto;
+    margin-right: auto; 
+    z-index: 1;
+}
+
+.Title{
+    width: 200px;
+    height: auto;
+    z-index: 1;
+    margin-left: 0%;
+}
+
+/*Dashboard fixé a gauche*/
+.Menujo {
+    background-image: url(BlueMajora.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    margin: 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+    position: fixed;
+    width: 420px; 
+    height: 400px;
+    border-radius: 0% 0% 10% 10%;
+}
+
+.Menujo a {
+    font-family: "Homemade Apple", cursive;
+    color: rgba(255, 9, 9, 0.856);
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+}
+.Menujo a:hover{
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 30px;
+    font-weight: 700;
+    cursor: url(CursorSword2\ \(1\).png), auto;
+}
+
+.Menujo ul{
+    color: darkred;
+}
+/*Partie central avec les rubriques tendances*/
+.Fate {
+    background-color: rgb(28, 17, 111);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1100px; 
+    height: 650px;
+    position: relative; 
+    left: 26.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-end;
+    z-index: 0;  
+    padding: 20px;
+    border: 2px solid #2f0375;
+
+}
+
+.Fate h5 {
+    font-family: "Ribeye Marrow";
+    font-size: 24px; 
+    font-weight: 600;
+    text-decoration: underline;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 5px;
+    margin: 0; 
+}
+
+.item {
+    width: 40%;
+    height: 270px;
+    margin: 10px;
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(18, 47, 141);
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+
+.Joma{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.Joma2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.Joma3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.Joma4{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.Joma:hover{
+    cursor: url(CursorSword2\ \(1\).png), auto;
+    filter: contrast(200%);
+}
+
+.Joma2:hover{
+    cursor: url(CursorSword2\ \(1\).png), auto;
+    filter: drop-shadow(16px 16px 34px red) invert(70%);
+}
+
+.Joma3:hover{
+    cursor: url(CursorSword2\ \(1\).png), auto;
+    filter: hue-rotate(70deg);
+}
+
+.Joma4:hover{
+    cursor: url(CursorSword2\ \(1\).png), auto;
+    filter: grayscale(85%);
+}
+/*Page de la rubrique d'introduction*/
+.Intro{
+    font-family: "Ribeye Marrow", serif;
+    font-size: 29;
+    font-weight: 800;
+    background-image: url(FondEtoile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 1163px; 
+    height: 980px;
+    padding: 15;
+    position: relative; 
+    left: 26.5%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    border: 2px solid rgb(64, 3, 105);
+}
+
+.Intro h3{
+    font-size: 45;
+    text-align: center;
+}
+/*rubrique du choix des boss*/
+.BadGuy{
+    background-color: rgb(7, 1, 94);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1100px; 
+    height: 960px;
+    position: relative; 
+    left: 26.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-end;
+    z-index: 0;  
+    padding: 20px;
+    border: 3px solid #4c0377;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+    color: #a000fd;
+}
+
+.BadGuy h5 {
+    font-family: "Ribeye Marrow";
+    font-size: 24px; 
+    font-weight: 600;
+    text-decoration: underline;
+    color: #000000;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 5px;
+    margin: 0; 
+    background-color: #550569;
+    border: 2px solid #0f11a3;
+}
+
+.Evil{
+    width: 30%;
+    height: 240px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+.Evil img{
+ max-width: 100%;
+ max-height: 100%;
+}
+
+.Evil:hover{
+    width: 26%;
+    height: 210px;
+    color: darkorange;
+    filter: contrast(200%);
+    cursor: url(CursorSword2\ \(1\).png), auto;
+}
+
+.Evil a:hover{
+    cursor: url(CursorSword2\ \(1\).png), auto;
+}
+/*mise en page de présentation d'un Boss*/
+.BossGuy{
+    background-color: rgb(7, 1, 94);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1100px; 
+    height: 960px;
+    position: relative; 
+    left: 26.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    z-index: 0;  
+    padding: 20px;
+    border: 3px solid #4c0377;
+    font-family: "Ribeye Marrow", serif;
+    font-weight: 800;
+    font-size: 40;
+    color: #ffffff;
+}
+
+.BossGuy h5 {
+    font-family: "Ribeye Marrow";
+    font-size: 24px; 
+    font-weight: 600;
+    text-decoration: underline;
+    color: #000000;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 5px;
+    margin: 0; 
+    background-color: #550569;
+    border: 2px solid #0f11a3;
+}
+
+.BossGuy img{
+    max-width: 50%;
+    max-height: 50%;
+   }
+/*Image des parties pas fini du site*/
+.Construction {
+    width: 1100px;
+    height: 960px;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    right: -30%;
+    top: 10%;
+    border-radius: 20%;
+}
+/*Bas de page*/
+footer {
+    position: absolute;
+    bottom: -275;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url(MajoraHead.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+    font-size: small;
+    color: #ffffff;
+}
+
+/*Changement pour téléphone*/
+@media screen and (max-width: 800px){
+    .Majo{
+        width: 10%;
+        height: auto;
+        left: 0%;
+
+    }
+    .Majo h3{
+        text-align: end;
+    }
+    .Majo h5 {
+        text-align: end;
+    }
+    .Menujo{
+        width: auto;
+        height: auto;
+        z-index: 1;
+
+    }
+    .Menujo a {
+        font-size: smaller;
+        font-weight: lighter;
+
+    }
+    .Menujo a:hover {
+        font-size: 20px;
+        font-weight: 200;
+
+    }
+    .Fate{
+        width: auto;
+        height: auto;
+        left: 0%;
+
+    }
+    .Fate h5{
+        font-size: small;
+    }
+    .item{
+        width: 30%;
+        height: 150px;
+    }
+    footer{
+        width: auto;
+        height: auto;
+
+    }
+    .vendeur-img{
+        filter: opacity(0);
+    }
+    .Title{
+        filter: opacity(0);
+    }
+    .Construction{
+        width: auto;
+        height: auto;
+    }
+    footer{
+        height: auto;
+        width: auto;
+        font-size: smaller;
+        font-weight: lighter;
+    }
+}
+/*Changement pour tablette*/
+@media screen and (max-width: 1100px){
+    .Majo{
+        width: auto;
+        height: auto;
+        left: 0%;
+
+    }
+    .Majo h3{
+        text-align: end;
+    }
+    .Majo h5 {
+        text-align: end;
+    }
+    .Menujo{
+        width: auto;
+        height: auto;
+        z-index: 1;
+
+    }
+    .Menujo a {
+        font-size: smaller;
+        font-weight: lighter;
+
+    }
+    .Fate{
+        width: 700px;
+        height: auto;
+        left: 15%;
+
+    }
+    .Fate h5{
+        font-size: small;
+    }
+    .item{
+        width: 45%;
+        height: 200px;
+    }
+    footer{
+        width: auto;
+        height: auto;
+
+    }
+    .vendeur-img{
+        filter: opacity(0);
+    }
+    .Title{
+        filter: opacity(0);
+    }
+    .BadGuy{
+        height: auto;
+        width: auto;
+        left: 0%;
+    }
+    .BadGuy h5{
+        font-size: small
+    }
+    .BossGuy{
+        height: auto;
+        width: auto;
+        left: 0%;
+    }
+    .BossGuy h5{
+        font-size: small;
+    }
+    .BossGuy img{
+        height: auto;
+        width: auto;
+    }
+    .BossGuy p{
+        font-size: small;
+    }
+    .Construction{
+        width: auto;
+        height: auto;
+        left: 0%;
+    }
+    footer{
+        height: auto;
+        width: auto;
+        font-size: smaller;
+        font-weight: lighter;
+    }
+}
